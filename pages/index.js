@@ -1,5 +1,9 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
+import Image from "next/image";
+import deved from "../public/dev-ed-wave.png";
+import aboutimage from "../public/about.jpg";
 
 export default function Home() {
   return (
@@ -13,7 +17,7 @@ export default function Home() {
       <main className="bg-white px-10">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">John Asare</h1>
+            <h1 className="text-xl font-burtons">Kwekss</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
@@ -28,6 +32,57 @@ export default function Home() {
               </li>
             </ul>
           </nav>
+          <div className="text-center p-10 py-10">
+            <h1 className="text-5xl py-2 text-teal-600 font-medium">
+              John Asare
+            </h1>
+            <h3 className="text-2xl py-2">Front-End Web Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">
+              {" "}
+              I'm a front-end web developer specializing in building exceptional
+              digital experiences. I'm focussed on building responsive front-end
+              web applications.
+            </p>
+          </div>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+            <AiFillLinkedin />
+            <AiFillGithub />
+            <AiFillMail />
+          </div>
+          <div className=" relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+            <Image src={deved} layout="fill" objectFit="cover" />
+          </div>
+        </section>
+        {/* About section */}
+        <section>
+          <div
+            id="about"
+            className="w-full md:h-screen p-2 flex items-center py-16"
+          >
+            <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
+              <div className="col-span-2">
+                <p className="uppercase text-xl tracking-widest text-teal-500">
+                  About
+                </p>
+                <h2 className="py-4"> Who I am</h2>
+                <p className="py-2 text-gray-600">
+                  I am a motivated student with professional experience as a
+                  frontend web developer, combining my studies at Ghana
+                  Communication Technology University. Have excellent
+                  prioritization and interpersonal skills .
+                </p>
+                <p className="py-2 text-gray-600">
+                  I am skilled in HTML(5),CSS(3), Javascript,Tailwind CSS,
+                  Next.js, and React.js. I have been learning about various
+                  technologies and staying up with emerging market trends and
+                  advancements.
+                </p>
+              </div>
+              <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-cenrer justify-center p-4 hover:scale-105 ease-in duration-300">
+                <Image src={aboutimage} />
+              </div>
+            </div>
+          </div>
         </section>
       </main>
     </>
