@@ -4,6 +4,13 @@ import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
 import aboutimage from "../public/about.jpg";
+import html from "../public/skills/html.png";
+import css from "../public/skills/css.png";
+import github from "../public/skills/github1.png";
+import javascript from "../public/skills/javascript.png";
+import next from "../public/skills/nextjs.png";
+import react from "../public/skills/react.png";
+import tailwind from "../public/skills/tailwind.png";
 
 export default function Home() {
   return (
@@ -61,7 +68,7 @@ export default function Home() {
           >
             <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
               <div className="col-span-2">
-                <p className="uppercase text-xl tracking-widest text-teal-500">
+                <p className="uppercase text-xl tracking-widest text-teal-600">
                   About
                 </p>
                 <h2 className="py-4"> Who I am</h2>
@@ -80,6 +87,90 @@ export default function Home() {
               </div>
               <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-cenrer justify-center p-4 hover:scale-105 ease-in duration-300">
                 <Image src={aboutimage} />
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Skills section */}
+
+        <section>
+          <div id="skills" className="w-full lg:h-screen p-2 ">
+            <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full ">
+              <p className="text-xl tracking-widest uppercase text-teal-600">
+                Skills
+              </p>
+              <h2 className="py-4">What I Can Do</h2>
+              <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                  <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+                    <div className="m-auto">
+                      <Image src={html} width={64} height={64} />
+                    </div>
+                    <div className="flex flex-col items-center justify-center">
+                      <h3>HTML</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                  <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+                    <div className="m-auto">
+                      <Image src={css} width={64} height={64} />
+                    </div>
+                    <div className="flex flex-col items-center justify-center">
+                      <h3>CSS</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                  <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+                    <div className="m-auto">
+                      <Image src={javascript} width={64} height={64} />
+                    </div>
+                    <div className="flex flex-col items-center justify-center">
+                      <h3>JAVASCRIPT</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                  <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+                    <div className="m-auto">
+                      <Image src={tailwind} width={64} height={64} />
+                    </div>
+                    <div className="flex flex-col items-center justify-center">
+                      <h3>TAILWIND</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                  <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+                    <div className="m-auto">
+                      <Image src={react} width={64} height={64} />
+                    </div>
+                    <div className="flex flex-col items-center justify-center">
+                      <h3>REACT.JS</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                  <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+                    <div className="m-auto">
+                      <Image src={next} width={64} height={64} />
+                    </div>
+                    <div className="flex flex-col items-center justify-center">
+                      <h3>NEXT.JS</h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                  <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+                    <div className="m-auto">
+                      <Image src={github} width={64} height={64} />
+                    </div>
+                    <div className="flex flex-col items-center justify-center">
+                      <h3>GITHUB</h3>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
