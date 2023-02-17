@@ -11,6 +11,11 @@ import javascript from "../public/skills/javascript.png";
 import next from "../public/skills/nextjs.png";
 import react from "../public/skills/react.png";
 import tailwind from "../public/skills/tailwind.png";
+import beemaImg from "../public/projects/beema.png";
+import huddleImg from "../public/projects/huddle.png";
+import nextImg from "../public/projects/next.png";
+import ninjaImg from "../public/projects/ninja.png";
+import ProjectItem from "../components/projectitem";
 
 export default function Home() {
   return (
@@ -40,11 +45,14 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
+            <p className="uppercase text-sm tracking-widest text-gray-600">
+              LET'S BUILD SOMETHING TOGETHER
+            </p>
             <h1 className="text-5xl py-2 text-teal-600 font-medium">
               John Asare
             </h1>
             <h3 className="text-2xl py-2">Front-End Web Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
+            <p className="text-md py-5 leading-8 text-gray-600">
               {" "}
               I'm a front-end web developer specializing in building exceptional
               digital experiences. I'm focussed on building responsive front-end
@@ -175,6 +183,37 @@ export default function Home() {
             </div>
           </div>
         </section>
+        {/* projects section */}
+        <div id="projects" className="w-full">
+          <div className="max-w-[1240px] mx-auto px-2 py-16">
+            <p className="text-xl tracking-widest uppercase text-teal-600">
+              Projects
+            </p>
+            <h2 className="py-4">What I've Built</h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <ProjectItem
+                title="Beema UI"
+                backgroundImg={beemaImg}
+                projectUrl="/beema"
+              />
+              <ProjectItem
+                title="Next Website"
+                backgroundImg={nextImg}
+                projectUrl="/next"
+              />
+              <ProjectItem
+                title="Huddle UI"
+                backgroundImg={huddleImg}
+                projectUrl="/huddle"
+              />
+              <ProjectItem
+                title="Ninja List"
+                backgroundImg={ninjaImg}
+                projectUrl="/ninja"
+              />
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );
