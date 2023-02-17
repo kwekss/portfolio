@@ -15,7 +15,7 @@ import beemaImg from "../public/projects/beema.png";
 import huddleImg from "../public/projects/huddle.png";
 import nextImg from "../public/projects/next.png";
 import ninjaImg from "../public/projects/ninja.png";
-import ProjectItem from "../components/projectitem";
+import ProjectItem from "../components/ProjectItem";
 
 export default function Home() {
   return (
