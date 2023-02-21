@@ -34,14 +34,18 @@ const beema = () => {
             target={"_blank"}
             rel={"noopener norefferer"}
           >
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-cyan-500 to-teal-500 text-white">
+              Demo
+            </button>
           </Link>
           <Link
             href="https://github.com/kwekss/Beema"
             target={"_blank"}
             rel={"noopener norefferer"}
           >
-            <button className="px-8 py-2 mt-4">Code</button>
+            <button className="px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-cyan-500 to-teal-500 text-white">
+              Code
+            </button>
           </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4 ">
