@@ -7,7 +7,7 @@ import ProjectItem from "../components/ProjectItem";
 const Projects = () => {
   return (
     <div>
-      <div id="projects" className="w-full mt-10">
+      <div className="w-full mt-10">
         <div className="max-w-[1240px] mx-auto px-2 py-10">
           <p className="text-xl tracking-widest uppercase text-teal-600">
             Projects

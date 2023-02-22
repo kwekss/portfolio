@@ -10,7 +10,7 @@ import Image from "next/image";
 const Skills = () => {
   return (
     <div>
-      <div id="skills" className="w-full py-10 p-2 ">
+      <div className="w-full py-10 p-2 ">
         <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full ">
           <p className="text-xl tracking-widest uppercase text-teal-600">
             Skills
