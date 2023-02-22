@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="py-10 mt-20 align-baseline flex justify-between">
-        <h1 className="text-xl font-burtons  dark:text-gray-500">Kwekss</h1>
+        {/* <h1 className="text-xl font-burtons  dark:text-gray-500 ">Kwekss</h1> */}
         <p className="text-xl font-burtons  dark:text-gray-500">
           Built By John Asare
         </p>

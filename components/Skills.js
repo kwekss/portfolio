@@ -22,7 +22,7 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image src={html} width={64} height={64} />
                 </div>
-                <div className="flex flex-col items-center justify-center  dark:text-gray-500">
+                <div className="flex flex-col items-center justify-center  dark:text-gray-300">
                   <h3>HTML</h3>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image src={css} width={64} height={64} />
                 </div>
-                <div className="flex flex-col items-center justify-center dark:text-gray-500 ">
+                <div className="flex flex-col items-center justify-center dark:text-gray-300 ">
                   <h3>CSS</h3>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image src={javascript} width={64} height={64} />
                 </div>
-                <div className="flex flex-col items-center justify-center dark:text-gray-500">
+                <div className="flex flex-col items-center justify-center dark:text-gray-300">
                   <h3>JAVASCRIPT</h3>
                 </div>
               </div>
@@ -52,7 +52,7 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image src={tailwind} width={64} height={64} />
                 </div>
-                <div className="flex flex-col items-center justify-center dark:text-gray-500">
+                <div className="flex flex-col items-center justify-center dark:text-gray-300">
                   <h3>TAILWIND</h3>
                 </div>
               </div>
@@ -62,7 +62,7 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image src={react} width={64} height={64} />
                 </div>
-                <div className="flex flex-col items-center justify-center dark:text-gray-500">
+                <div className="flex flex-col items-center justify-center dark:text-gray-300">
                   <h3>REACT.JS</h3>
                 </div>
               </div>
@@ -72,7 +72,7 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image src={next} width={64} height={64} />
                 </div>
-                <div className="flex flex-col items-center justify-center dark:text-gray-500">
+                <div className="flex flex-col items-center justify-center dark:text-gray-300">
                   <h3>NEXT.JS</h3>
                 </div>
               </div>
@@ -82,7 +82,7 @@ const Skills = () => {
                 <div className="m-auto">
                   <Image src={github} width={64} height={64} />
                 </div>
-                <div className="flex flex-col items-center justify-center dark:text-gray-500">
+                <div className="flex flex-col items-center justify-center dark:text-gray-300">
                   <h3>GITHUB</h3>
                 </div>
               </div>

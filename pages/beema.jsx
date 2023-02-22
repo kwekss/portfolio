@@ -34,7 +34,7 @@ const beema = () => {
             target={"_blank"}
             rel={"noopener norefferer"}
           >
-            <button className="px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-cyan-500 to-teal-500 text-white dark:shadow-none dark:text-gray-500">
+            <button className="px-8 py-2 mt-4 mr-8 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-cyan-500 to-teal-500 text-white dark:shadow-none dark:text-gray-300">
               Demo
             </button>
           </Link>
@@ -43,7 +43,7 @@ const beema = () => {
             target={"_blank"}
             rel={"noopener norefferer"}
           >
-            <button className="px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-cyan-500 to-teal-500 text-white dark:shadow-none dark:text-gray-500">
+            <button className="px-8 py-2 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-cyan-500 to-teal-500 text-white dark:shadow-none dark:text-gray-300">
               Code
             </button>
           </Link>
