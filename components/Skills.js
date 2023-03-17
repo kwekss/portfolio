@@ -5,6 +5,7 @@ import javascript from "../public/skills/javascript.png";
 import next from "../public/skills/nextjs.png";
 import react from "../public/skills/react.png";
 import tailwind from "../public/skills/tailwind.png";
+import firebase from "../public/skills/firebase.png";
 import Image from "next/image";
 
 const Skills = () => {
@@ -84,6 +85,16 @@ const Skills = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center dark:text-gray-300">
                   <h3>GITHUB</h3>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-gray-700">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+                <div className="m-auto">
+                  <Image src={firebase} width={64} height={64} />
+                </div>
+                <div className="flex flex-col items-center justify-center dark:text-gray-300">
+                  <h3>FIREBASE</h3>
                 </div>
               </div>
             </div>

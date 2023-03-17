@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import nextImg from "../public/projects/next.png";
+import weatherappImg from "../public/projects/weatherapp.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,12 +13,12 @@ const next = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={nextImg}
+          src={weatherappImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 text-white  dark:text-gray-500">
-          <h2 className="py-2">Next Website</h2>
-          <h3>HTML/CSS/Javascript</h3>
+          <h2 className="py-2">Weather Application</h2>
+          <h3>Next JS</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8  dark:text-gray-500">
@@ -26,11 +26,11 @@ const next = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using HTML,CSS,Javascript and is hosted on
-            Vercel. The app displays a responsive interface.
+            This app was built using Next JS and is powered by openweathermap
+            and hosted on Vercel. The app displays a responsive interface.
           </p>
           <Link
-            href="https://next-website-opal.vercel.app/"
+            href="https://weather-application-sable.vercel.app/"
             target={"_blank"}
             rel={"noopener norefferer"}
           >
@@ -39,7 +39,7 @@ const next = () => {
             </button>
           </Link>
           <Link
-            href="https://github.com/kwekss/next-website"
+            href="https://github.com/kwekss/weather-application.git"
             target={"_blank"}
             rel={"noopener norefferer"}
           >
@@ -54,11 +54,11 @@ const next = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                HTML
+                Next JS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                CSS
+                Tailwind CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />

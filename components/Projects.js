@@ -1,7 +1,7 @@
 import beemaImg from "../public/projects/beema.png";
 import huddleImg from "../public/projects/huddle.png";
-import nextImg from "../public/projects/next.png";
-import ninjaImg from "../public/projects/ninja.png";
+import weatherappImg from "../public/projects/weatherapp.png";
+import cryptobaseImg from "../public/projects/cryptobase.png";
 import ProjectItem from "../components/ProjectItem";
 
 const Projects = () => {
@@ -20,9 +20,9 @@ const Projects = () => {
               projectUrl="/beema"
             />
             <ProjectItem
-              title="Next Website"
-              backgroundImg={nextImg}
-              projectUrl="/next"
+              title="Weather Application"
+              backgroundImg={weatherappImg}
+              projectUrl="/weather"
             />
             <ProjectItem
               title="Huddle UI"
@@ -30,9 +30,9 @@ const Projects = () => {
               projectUrl="/huddle"
             />
             <ProjectItem
-              title="Ninja List"
-              backgroundImg={ninjaImg}
-              projectUrl="/ninja"
+              title="Cryptobase"
+              backgroundImg={cryptobaseImg}
+              projectUrl="/cryptobase"
             />
           </div>
         </div>
