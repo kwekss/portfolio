@@ -14,13 +14,13 @@ const Homepage = () => {
           John Asare
         </h1>
         <h3 className="text-2xl py-2 md:text-3xl  dark:text-gray-600">
-          Front-End Web Developer
+          Front-End Web Developer | Mobile App Developer
         </h3>
         <p className="text-md py-5 leading-8 text-gray-600 md:text-xl max-w-lg mx-auto dark:text-gray-500">
           {" "}
-          I'm a front-end web developer specializing in building exceptional
-          digital experiences. I'm focussed on building responsive front-end web
-          applications.
+          I'm a front-end web developer and mobile app developer specializing in
+          building exceptional digital experiences. I'm focussed on building
+          responsive web and mobile applications.
         </p>
       </div>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600  dark:text-gray-500">

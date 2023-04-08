@@ -2,6 +2,8 @@ import beemaImg from "../public/projects/beema.png";
 import huddleImg from "../public/projects/huddle.png";
 import weatherappImg from "../public/projects/weatherapp.png";
 import cryptobaseImg from "../public/projects/cryptobase.png";
+import jobImg from "../public/projects/jobs.png";
+import restaurantsImg from "../public/projects/resturant-search.png";
 import ProjectItem from "../components/ProjectItem";
 
 const Projects = () => {
@@ -33,6 +35,16 @@ const Projects = () => {
               title="Cryptobase"
               backgroundImg={cryptobaseImg}
               projectUrl="/cryptobase"
+            />
+            <ProjectItem
+              title="Job Listing App"
+              backgroundImg={jobImg}
+              projectUrl="/jobs"
+            />
+            <ProjectItem
+              title="Restaurants Search"
+              backgroundImg={restaurantsImg}
+              projectUrl="/restaurants"
             />
           </div>
         </div>
