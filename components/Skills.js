@@ -7,6 +7,7 @@ import react from "../public/skills/react.png";
 import tailwind from "../public/skills/tailwind.png";
 import firebase from "../public/skills/firebase.png";
 import reactNative from "../public/skills/react-native.png";
+import typescript from "../public/skills/typescript.png";
 
 import Image from "next/image";
 
@@ -106,7 +107,17 @@ const Skills = () => {
                   <Image src={reactNative} width={64} height={64} />
                 </div>
                 <div className="flex flex-col items-center justify-center dark:text-gray-300">
-                  <h3>React Native</h3>
+                  <h3>REACT NATIVE</h3>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 dark:bg-gray-700">
+              <div className="grid grid-cols-2 gap-4 justify-center items-center ">
+                <div className="m-auto">
+                  <Image src={typescript} width={64} height={64} />
+                </div>
+                <div className="flex flex-col items-center justify-center dark:text-gray-300">
+                  <h3>TYPESCRIPT</h3>
                 </div>
               </div>
             </div>
